@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello </string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Notes</item>
+        <item>Reminder</item>
+        <item>Create new label</item>
+        <item>Archieve</item>
+        <item>Trash</item>
+        <item>Help and feedback</item>
+        <item>About</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/mainMenu">
+
+        <item android:id="@+id/courses"
+            android:icon="@drawable/new_add"
+            android:title="Create New Label" />
+        <item android:id="@+id/students"
+            android:icon="@drawable/new_archieve"
+            android:title="Archieve" />
+        <item android:id="@+id/attendance"
+            android:icon="@drawable/new_delete"
+            android:title="Trash" />
+        <item android:id="@+id/grades"
+            android:icon="@drawable/new_feedback"
+            android:title="Feedback" />
+    </group>
+
+    <group android:id="@+id/secondaryMenu">
+        <item android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+        <item android:id="@+id/about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About" />
+    </group>
+</menu>

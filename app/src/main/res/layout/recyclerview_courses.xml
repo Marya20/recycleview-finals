@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coursesParentCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:theme="@style/Theme.MaterialComponents.Light"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/courseName"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tittle" />
+
+            <ImageView
+                android:id="@+id/coursesImage"
+                android:layout_width="392dp"
+                android:layout_height="31dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/courseback" />
+
+            <TextView
+                android:id="@+id/courseDescription"
+                android:layout_width="370dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:text="Notes" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
